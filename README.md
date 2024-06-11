@@ -1,0 +1,1 @@
+This custom package contains several tools to help on the development of FisipGroup projects.
