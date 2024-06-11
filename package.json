@@ -1,6 +1,6 @@
 {
   "name": "com.fisipgroup.tools",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "displayName": "FisipGroup Tools",
   "description": "This custom package contains several tools to help on the development of FisipGroup projects.",
   "unity": "2019.1",
@@ -13,7 +13,7 @@
     "fisipgroup"
   ],
   "author": {
-    "name": "Joao Santos",
+    "name": "FisipGroup",
     "email": "joao@fisipgroup.com",
     "url": "https://github.com/JoaoSantosFisip"
   }

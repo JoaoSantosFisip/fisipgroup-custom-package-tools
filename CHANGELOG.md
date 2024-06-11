@@ -1,5 +1,8 @@
 All notable changes to this project will be documented in this file.
 
+[1.0.3] - 2024-06-11
+ - Updated package author name.
+
 [1.0.2] - 2024-06-11
  - Updated license file.
 
