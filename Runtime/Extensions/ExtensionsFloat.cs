@@ -57,16 +57,6 @@ namespace FisipGroup.CustomPackage.Tools.Extensions
                 Debug.LogWarning("FisipGroup.CustomPackage.Tools.ExtensionsFloat: " +
                     "max value is lower than the min value");
             }
-            if (minRemaped > maxRemaped)
-            {
-                Debug.LogWarning("FisipGroup.CustomPackage.Tools.ExtensionsFloat: " +
-                    "minRemaped value is higher than the maxRemaped value");
-            }
-            if (maxRemaped < minRemaped)
-            {
-                Debug.LogWarning("FisipGroup.CustomPackage.Tools.ExtensionsFloat: " +
-                    "maxRemaped value is lower than the minRemaped value");
-            }
 
             value = Mathf.Clamp(value, min, max);
 

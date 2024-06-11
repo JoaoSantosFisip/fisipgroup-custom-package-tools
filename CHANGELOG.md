@@ -1,5 +1,8 @@
 All notable changes to this project will be documented in this file.
 
+[1.0.4] - 2024-06-11
+ - Removed ExtensionsFloat Remap warnings.
+
 [1.0.3] - 2024-06-11
  - Updated package author name.
 
