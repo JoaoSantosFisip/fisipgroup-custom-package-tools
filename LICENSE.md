@@ -29,7 +29,7 @@ In no event will Fisip Group Ltd. be liable for any special, incidental, indirec
 This License is effective until terminated. Fisip Group Ltd. may terminate this License at any time without notice. Upon termination, You shall cease all use of the Package and destroy all copies, full or partial, of the Package.
 
 9. Governing Law
-This License shall be governed by and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of laws provisions.
+This License shall be governed by and construed in accordance with the laws of Malta, without regard to its conflict of laws provisions.
 
 Fisip Group Ltd.
 LEVEL 3 OFFICE 2, 56 TRIQ IT- TORRI
