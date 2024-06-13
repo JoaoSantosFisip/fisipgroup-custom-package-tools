@@ -3,6 +3,10 @@ using UnityEngine;
 
 namespace FisipGroup.CustomPackage.Tools.EditorTool
 {
+    /// <summary>
+    /// Script to easily control the canvas group visibility via editor.
+    /// </summary>
+    [RequireComponent(typeof(CanvasGroup))]
     public class EditorToolCanvasGroupController : MonoBehaviour
     {
         private CanvasGroup _group;
@@ -14,18 +18,13 @@ namespace FisipGroup.CustomPackage.Tools.EditorTool
 
         public void SetVisibility(bool visible)
         {
-            _group.SetVisibility(visible);
-        }
+#if UNITY_EDITOR
+            GetComponent<CanvasGroup>().SetVisibility(visible);
 
-        [ContextMenu("Set Visible")]
-        private void SetVisibile()
-        {
-            _group.SetVisibility(true);
-        }
-        [ContextMenu("Set Hidden")]
-        private void SetHidden()
-        {
-            _group.SetVisibility(false);
+            return;
+#endif
+
+            _group.SetVisibility(visible);
         }
     }
 }

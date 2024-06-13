@@ -1,3 +1,5 @@
+// Ignore Spelling: Fisip
+
 using UnityEngine;
 
 namespace FisipGroup.CustomPackage.Tools.Extensions
