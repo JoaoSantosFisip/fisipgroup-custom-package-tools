@@ -1,5 +1,8 @@
 All notable changes to this project will be documented in this file.
 
+[1.0.6] - 2024-06-14
+ - Fixed editor asmdef file platforms bug.
+ 
 [1.0.5] - 2024-06-11
  - Fixed ExtensionsCanvasGroup.cs warnings.
  - Added custom editor script to EditorToolCanvasGroupController.cs.
