@@ -1,5 +1,8 @@
 All notable changes to this project will be documented in this file.
 
+[1.0.8] - 2024-07-16
+ - Added RemoveWhitespaceLinesAndTabs method to ExteionsString.
+
 [1.0.7] - 2024-06-18
  - Added GetComponentsInChildrenExclusive method to ExtensionsTransform.
 

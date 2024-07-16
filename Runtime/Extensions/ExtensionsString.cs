@@ -45,6 +45,24 @@ namespace FisipGroup.CustomPackage.Tools.Extensions
             return source.Split('#')[0];
         }
 
+        /// <summary>
+        /// Removes all spaces, new lines and tabs from text.
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        public static string RemoveWhitespaceLinesAndTabs(this string source)
+        {
+            if (string.IsNullOrWhiteSpace(source))
+            {
+                EmptyStringWarningMessage();
+
+                return string.Empty;
+            }
+
+            // Use Regex to replace all whitespace characters (spaces, new lines, tabs) with an empty string
+            return Regex.Replace(source, @"\s+", "");
+        }
+
         private static void EmptyStringWarningMessage()
         {
             Debug.LogWarning("FisipGroup.CustomPackage.Tools.Extensions.ExtensionsString: " +
