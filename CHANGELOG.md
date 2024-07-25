@@ -1,5 +1,8 @@
 All notable changes to this project will be documented in this file.
 
+[1.0.10] - 2024-07-25
+ - Changed script icons.
+
 [1.0.9] - 2024-07-17
  - Added EditorWindowStyles.
  - Added HelperCustomPackage.
